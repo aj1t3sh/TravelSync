@@ -2,10 +2,35 @@
  * TravelSync API Client for communicating with the Java 17 REST API backend.
  */
 
-const RAW_URL = (import.meta.env.VITE_API_BASE_URL || '').trim();
-const BASE_URL = RAW_URL
-  ? (RAW_URL.endsWith('/api') ? RAW_URL : `${RAW_URL.replace(/\/+$/, '')}/api`)
-  : '/api';
+/**
+ * Safely resolves the API Base URL.
+ * Handles Render hostname injection (e.g. 'travelsync-backend.onrender.com'),
+ * full URLs ('https://travelsync-backend.onrender.com'), and local dev fallback ('/api').
+ */
+function resolveApiBaseUrl(raw) {
+  if (!raw) return '/api';
+  let url = raw.trim();
+  if (!url) return '/api';
+
+  // Relative path (e.g., '/api')
+  if (url.startsWith('/')) {
+    return url.endsWith('/') ? url.slice(0, -1) : url;
+  }
+
+  // Prepend protocol if missing (Render property: host supplies hostname only)
+  if (!/^https?:\/\//i.test(url)) {
+    const isLocal = /^localhost(:\d+)?/i.test(url) || /^127\.0\.0\.1(:\d+)?/i.test(url);
+    url = (isLocal ? 'http://' : 'https://') + url;
+  }
+
+  // Strip trailing slashes
+  url = url.replace(/\/+$/, '');
+
+  // Append /api without duplicating
+  return url.endsWith('/api') ? url : `${url}/api`;
+}
+
+const BASE_URL = resolveApiBaseUrl(import.meta.env.VITE_API_BASE_URL);
 
 
 async function handleResponse(response) {

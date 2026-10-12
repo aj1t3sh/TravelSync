@@ -23,9 +23,8 @@ services:
     runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
+    staticPublishPath: dist
     plan: free
-    region: oregon
     autoDeploy: true
     routes:
       - type: rewrite
@@ -36,4 +35,4 @@ services:
         fromService:
           type: web
           name: travelsync-backend
-          property: url
+          property: host
