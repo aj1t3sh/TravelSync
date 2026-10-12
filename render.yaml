@@ -17,14 +17,13 @@ services:
       - key: PORT
         value: 8080
 
-  # 2. React + Vite Frontend Static Site
+  # 2. React + Vite Frontend Static Site (Free Global CDN Hosting)
   - type: web
     name: travelsync-frontend
     runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
-    plan: free
     autoDeploy: true
     routes:
       - type: rewrite
