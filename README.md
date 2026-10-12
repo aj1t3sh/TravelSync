@@ -187,3 +187,31 @@ mvn clean test
 1. **Live Transport Fares & Flight Schedules**: Transport network data is derived from static public transit schedules and average seasonal ticket tariffs. Real-time dynamic pricing, seat availability, and live railway delay feeds are not integrated.
 2. **Exact Road Topologies**: City-to-city distances use authentic highway corridor distances and Haversine geodesic coordinates, not turn-by-turn routing geometries.
 3. **NP-Hard Input Threshold**: Exact Bitmask DP TSP is limited to $K \le 16$ stops to prevent exponential memory consumption. Larger tours should utilize approximation heuristics.
+
+---
+
+## 8. Cloud Deployment & Hosting (Render)
+
+TravelSync includes out-of-the-box infrastructure configuration for deployment to [Render](https://render.com) using the included `render.yaml` Blueprint or Docker:
+
+### Architecture
+- **Backend Service (`travelsync-backend`)**:
+  - Runtime: Docker (`eclipse-temurin:17-jre-alpine`)
+  - Build: Multi-stage Maven build packaged into a self-contained shaded JAR
+  - Endpoints: REST API on `0.0.0.0:$PORT` with CORS enabled
+  - Health check: `/api/health` and `/health`
+- **Frontend Service (`travelsync-frontend`)**:
+  - Runtime: Static Site
+  - Build command: `npm install && npm run build` (inside `frontend/`)
+  - Publish directory: `frontend/dist`
+  - Routes: Rewrite rule `/* -> /index.html` (SPA client routing)
+  - Environment: `VITE_API_BASE_URL` dynamically linked from the backend web service URL
+
+### Blueprint Deployment Steps
+1. Navigate to the [Render Dashboard](https://dashboard.render.com).
+2. Select your **TravelSync** project.
+3. Click **New +** -> **Blueprint**.
+4. Connect the repository `https://github.com/aj1t3sh/TravelSync.git` (`main` branch).
+5. Render detects `render.yaml` and provisions both `travelsync-backend` and `travelsync-frontend`.
+6. Click **Apply Blueprint** to launch both services.
+
