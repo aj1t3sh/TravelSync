@@ -1,0 +1,30 @@
+# Compiled Java artifacts & Maven
+target/
+bin/
+*.class
+dependency-reduced-pom.xml
+
+# IDE and Editor configurations
+.settings/
+.idea/
+*.iml
+.project
+.classpath
+.vscode/
+
+# Node.js and Frontend builds
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+dist/
+
+# Environment, secrets, and logs
+*.log
+.env
+.env.local
+.env.*.local
+
+# Operating System & Caches
+.DS_Store
+Thumbs.db

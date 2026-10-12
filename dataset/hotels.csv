@@ -1,0 +1,51 @@
+id,city,name,price_per_night,rating,review_count,hotel_type,amenities,available_rooms,total_capacity
+HOTEL001,Hyderabad,Taj Falaknuma Palace,18500,4.9,890,Heritage,"Pool,Spa,Fine Dining,Historic Tour,Heritage,Butler Service",5,60
+HOTEL002,Hyderabad,ITC Kohenur Luxury Collection,9500,4.7,1420,Luxury,"Pool,Spa,Rooftop Lounge,Multi-Cuisine,Gym,WiFi",12,120
+HOTEL003,Hyderabad,Trident Hyderabad Hitec City,6200,4.6,1150,Premium,"Pool,Gym,Business Center,Restaurant,WiFi,Bar",18,150
+HOTEL004,Hyderabad,Courtyard by Marriott Hyderabad,4500,4.4,980,Comfort,"Pool,Restaurant,Fitness Center,WiFi,Breakfast",22,140
+HOTEL005,Hyderabad,Lemon Tree Premier Hitec City,3600,4.2,850,Comfort,"Pool,Gym,Cafe,WiFi,Free Breakfast",25,160
+HOTEL006,Hyderabad,Ibis Hyderabad Hitec City,2800,4.1,640,Budget,"WiFi,Bar,Restaurant,Gym,Work Desk",30,180
+HOTEL007,Hyderabad,Zostel Hyderabad Banjara Hills,1100,4.3,520,Backpacker,"Dorm,Common Room,Cafe,WiFi,Lockers,Tours",40,100
+HOTEL008,Hyderabad,Hotel Deccan Serai,2400,4.0,430,Budget,"WiFi,Restaurant,Room Service,AC",20,90
+HOTEL009,New Delhi,The Leela Palace New Delhi,16000,4.9,1340,Heritage,"Rooftop Pool,Spa,Fine Dining,Butler,Luxury",8,80
+HOTEL010,New Delhi,The Imperial New Delhi,12500,4.8,1100,Heritage,"Historic Museum,Spa,Pool,Italian Dining,Gardens",10,95
+HOTEL011,New Delhi,Radisson Blu Plaza Delhi Airport,5800,4.5,1650,Premium,"Pool,Spa,Airport Shuttle,Multi-Cuisine,Gym",25,200
+HOTEL012,New Delhi,Bloomrooms @ Janpath,3200,4.3,820,Comfort,"WiFi,Cafe,Breakfast,Modern Design,AC",18,110
+HOTEL013,New Delhi,Zostel Delhi Paharganj,950,4.2,950,Backpacker,"Dorm,Rooftop Cafe,Tours,WiFi,Lockers",35,90
+HOTEL014,Goa,Taj Exotica Resort & Spa Benaulim,17500,4.8,1250,Luxury,"Private Beach,Golf,Pool,Spa,Seafood Restaurant",10,110
+HOTEL015,Goa,W Goa Vagator,15000,4.7,980,Luxury,"Rock Pool,Beach Access,Spa,Nightclub,Lounge",12,100
+HOTEL016,Goa,Hard Rock Hotel Goa Calangute,6500,4.4,1120,Premium,"Pool,Live Music,Bar,Gym,Restaurant",20,130
+HOTEL017,Goa,Santana Beach Resort Candolim,3800,4.3,740,Comfort,"2 Pools,Beach Access,Garden Restaurant,WiFi",16,80
+HOTEL018,Goa,Zostel Goa Morjim,1200,4.4,860,Backpacker,"Beachside,Cafe,Dorm,Community Events,WiFi",28,75
+HOTEL019,Jaipur,Rambagh Palace Jaipur,24000,4.9,1450,Heritage,"Polo Bar,Peacock Gardens,Spa,Royal Suites",6,50
+HOTEL020,Jaipur,ITC Rajputana Luxury Collection,7800,4.6,1280,Luxury,"Pool,Spa,Peshawri Dining,Courtyard,Gym",15,160
+HOTEL021,Jaipur,Umaid Bhawan Heritage House,3400,4.4,920,Comfort,"Rooftop Restaurant,Heritage Decor,Pool,WiFi",18,70
+HOTEL022,Jaipur,Zostel Jaipur City Center,900,4.3,1100,Backpacker,"Rooftop Terrace,Tours,Common Room,WiFi",32,85
+HOTEL023,Mumbai,The Taj Mahal Palace Colaba,21000,4.9,2890,Heritage,"Sea View,Historic Tours,Spa,Pool,Fine Dining",12,180
+HOTEL024,Mumbai,The St. Regis Mumbai Lower Parel,14000,4.8,1920,Luxury,"Infinity Pool,Nightclub,Spa,Butler,Mall Access",15,220
+HOTEL025,Mumbai,Trident Nariman Point,8500,4.6,1780,Premium,"Marine Drive View,Pool,Gym,Bar,Multi-Cuisine",20,250
+HOTEL026,Mumbai,Residency Hotel Fort,3500,4.2,650,Comfort,"City Center,WiFi,Breakfast,Room Service",15,60
+HOTEL027,Mumbai,Zostel Mumbai Andheri,1200,4.1,720,Backpacker,"Dorm,Cafe,Workspaces,WiFi,Metro Access",30,80
+HOTEL028,Bengaluru,The Ritz-Carlton Bangalore,13500,4.8,1180,Luxury,"Rooftop Bar,Spa,Pool,Fine Dining,Gym",14,140
+HOTEL029,Bengaluru,The Chancery Pavilion,4200,4.2,890,Comfort,"Pool,Restaurant,Gym,Central Location,WiFi",24,150
+HOTEL030,Bengaluru,Zostel Bangalore Indiranagar,1100,4.4,680,Backpacker,"Garden Cafe,Dorm,Events,WiFi,Pub District",25,65
+HOTEL031,Varanasi,BrijRama Palace Heritage on Ghats,15500,4.8,840,Heritage,"Ganges View,Private Boat,Vegetarian Dining,Live Music",8,45
+HOTEL032,Varanasi,Taj Ganges Varanasi,7200,4.6,1020,Premium,"Gardens,Pool,Spa,Indian Dining,Airport Shuttle",16,130
+HOTEL033,Varanasi,Zostel Varanasi Dashashwamedh,900,4.3,910,Backpacker,"Ghat Walking Distance,Rooftop,Dorm,WiFi",35,80
+HOTEL034,Agra,The Oberoi Amarvilas Agra,32000,4.9,1680,Heritage,"Unobstructed Taj Mahal View,Spa,Royal Dining,Pool",6,65
+HOTEL035,Agra,ITC Mughal Luxury Collection,6800,4.6,1450,Luxury,"Mughal Gardens,Kaya Kalp Spa,Pool,Peshawri",20,180
+HOTEL036,Agra,Hotel Taj Resorts,2800,4.2,780,Comfort,"Taj East Gate Walking,Rooftop Pool,WiFi",18,70
+HOTEL037,Kochi,Brunton Boatyard CGH Earth,11000,4.7,690,Heritage,"Harbour View,Historic Architecture,Kerala Cuisine,Pool",10,50
+HOTEL038,Kochi,Forte Kochi Boutique Hotel,5400,4.5,480,Comfort,"Colonial Courtyard,Pool,Seafood,WiFi",12,40
+HOTEL039,Kolkata,The Oberoi Grand Kolkata,11500,4.8,1240,Heritage,"Colonial Grandeur,Pool,Spa,Baan Thai Dining",14,120
+HOTEL040,Kolkata,The Peerless Inn Kolkata,3600,4.2,830,Comfort,"Bengali Speciality Restaurant,Central,WiFi",22,110
+HOTEL041,Chennai,Taj Coromandel Chennai,9200,4.7,1130,Luxury,"Southern Spice Restaurant,Spa,Pool,Gym",16,150
+HOTEL042,Chennai,The Residency Towers,4100,4.3,920,Comfort,"Crown Rooftop,Pool,Gym,WiFi,Breakfast",20,130
+HOTEL043,Udaipur,The Oberoi Udaivilas,38000,5.0,1950,Heritage,"Palace on Lake Pichola,Private Boats,Royal Spa,Peacocks",5,50
+HOTEL044,Udaipur,Taj Lake Palace Udaipur,34000,4.9,2100,Heritage,"Island Palace in Lake Pichola,Royal Butler,Jharokhas",6,45
+HOTEL045,Amritsar,Taj Swarna Amritsar,6500,4.6,980,Premium,"Pool,Spa,Punjabi Dining,Golden Temple Shuttle",18,140
+HOTEL046,Manali,The Himalayan Boutique Resort,9800,4.7,620,Luxury,"Castle Architecture,Heated Pool,Mountain Views,Fireplace",10,35
+HOTEL047,Manali,Zostel Old Manali,1200,4.4,1150,Backpacker,"Apple Orchards,Riverside,Cafe,Dorm,WiFi",30,70
+HOTEL048,Mysuru,Grand Mercure Mysore,4800,4.4,790,Comfort,"Rooftop Pool,Palace View,Gym,WiFi",18,120
+HOTEL049,Rishikesh,Aloha on the Ganges,7500,4.6,880,Premium,"Ganges Riverfront,Infinity Pool,Yoga Sessions,Spa",15,90
+HOTEL050,Shimla,Wildflower Hall Oberoi Resort,26000,4.9,1120,Luxury,"Cedar Forest,Heated Outdoor Whirlpool,Spa,Himalayan Views",8,55

@@ -1,0 +1,31 @@
+id,destination_id,destination_name,review_text,rating,review_date,traveler_type
+REV001,DEST001,Hyderabad,"The visit to Charminar and Golconda Fort showed us magnificent historic architecture and wonderful royal heritage. The local cuisine and authentic Hyderabadi biryani near old city were unforgettable.",5.0,2025-01-15,Family
+REV002,DEST001,Hyderabad,"Hyderabad is a great blend of ancient monument marvels and modern IT hub. Exploring the old city narrow lanes and sampling authentic local food was a culinary delight with historic architecture.",4.5,2025-02-10,Solo
+REV003,DEST001,Hyderabad,"Golconda fort acoustics left us stunned. The panoramic sunset view from the top overlooking Hussain Sagar is breathtaking. We loved the local cuisine and vibrant old city culture.",5.0,2025-02-22,Couples
+REV004,DEST001,Hyderabad,"Chowmahalla Palace exhibits exquisite craftsmanship. Wandering through Laad bazaar for pearl shopping and enjoying local food makes Hyderabad an essential cultural destination.",4.0,2025-03-01,Friends
+REV005,DEST001,Hyderabad,"Birla Mandir made of white marble provides tranquil peace overlooking the city. Don't miss the sound and light show at Golconda Fort revealing rich historic architecture.",4.8,2025-03-12,Family
+REV006,DEST002,New Delhi,"Red Fort and Qutub Minar reflect centuries of grandeur with majestic historic architecture. Chandni Chowk has the best street food and delicious local cuisine in the old city.",5.0,2025-01-20,Friends
+REV007,DEST002,New Delhi,"Humayun's tomb garden architecture is peaceful and symmetrical. Walking through the heritage monuments of Delhi gives you an unforgettable taste of Mughal history.",4.7,2025-02-05,Couples
+REV008,DEST002,New Delhi,"India Gate evening breeze and street snacks are wonderful. The city combines vibrant culture, historical monuments, and diverse north Indian food.",4.5,2025-02-18,Family
+REV009,DEST003,Goa,"Baga beach sunset was stunning. Water sports, relaxed beach shacks, and delicious seafood cuisine made this tropical vacation unforgettable.",5.0,2025-01-10,Couples
+REV010,DEST003,Goa,"Basilica of Bom Jesus in Old Goa has serene Portuguese colonial architecture. Enjoyed scooter rides along palm trees, scenic beaches, and vibrant nightlife.",4.8,2025-02-14,Friends
+REV011,DEST003,Goa,"Dudhsagar waterfalls trek through the jungle was thrilling. Goa offers both tranquil heritage churches and lively beach adventure.",4.6,2025-03-05,Solo
+REV012,DEST004,Jaipur,"Amber Fort mirror palace and elephant ride were royal. The Pink City historic architecture and traditional Rajasthani thali are out of this world.",5.0,2025-01-25,Family
+REV013,DEST004,Jaipur,"Hawa Mahal facade is an architectural wonder for photography. City palace courtyards display magnificent royal heritage and vibrant handicrafts.",4.7,2025-02-12,Couples
+REV014,DEST005,Mumbai,"Marine drive Queen's necklace view at night is magical. Gateway of India and Taj hotel display colonial historic architecture next to the Arabian sea.",4.8,2025-01-18,Solo
+REV015,DEST005,Mumbai,"Elephanta caves ferry ride was great. Mumbai street food including vada pav and pav bhaji near Juhu beach is must-try local food.",4.5,2025-02-28,Friends
+REV016,DEST006,Bengaluru,"Lalbagh botanical garden glass house and century-old trees are gorgeous. The pleasant weather, craft breweries, and tech parks create a vibrant city vibe.",4.6,2025-01-22,Solo
+REV017,DEST007,Varanasi,"Ganga Aarti at Dashashwamedh Ghat was a profoundly spiritual experience. The morning boat ride along ancient ghats and tasting kachori was memorable.",5.0,2025-02-08,Family
+REV018,DEST007,Varanasi,"Kashi Vishwanath temple corridor is beautifully renovated. The spiritual aura, narrow labyrinth streets, and evening hymns are mesmerizing.",4.9,2025-02-25,Solo
+REV019,DEST008,Agra,"Taj Mahal at sunrise is pure poetry in white marble. Agra fort has incredible viewpoints of the Taj and profound historic architecture.",5.0,2025-01-30,Couples
+REV020,DEST008,Agra,"Seeing one of the seven wonders in person exceeds expectations. Marble inlay craftsmanship and delicious petha sweets are top highlights.",4.8,2025-03-02,Family
+REV021,DEST009,Kochi,"Chinese fishing nets against the sunset in Fort Kochi were picturesque. Fresh spice aromas, Kathakali dance, and serene backwaters make Kerala magical.",4.7,2025-02-17,Couples
+REV022,DEST010,Kolkata,"Victoria Memorial marble grandeur surrounded by lush gardens is majestic. Howrah Bridge and mouthwatering Bengali sweets like rasgulla are iconic.",4.6,2025-01-28,Family
+REV023,DEST011,Chennai,"Marina Beach morning walk with hot filter coffee is unmatched. Kapaleeshwarar temple shows intricate Dravidian architecture and deep spiritual heritage.",4.5,2025-02-19,Solo
+REV024,DEST012,Udaipur,"Sunset boat cruise on Lake Pichola overlooking City Palace and Jag Mandir was the most romantic experience. Grand Rajput palaces and royal hospitality.",5.0,2025-02-14,Couples
+REV025,DEST013,Amritsar,"Golden Temple night illumination and peaceful hymns touched my soul. The community langar service and authentic Amritsari kulcha are incredible.",5.0,2025-01-12,Family
+REV026,DEST014,Manali,"Solang valley snow activities and paragliding were exhilarating. Rohtang pass mountain vistas and pine-scented air are rejuvenating.",4.8,2025-03-08,Friends
+REV027,DEST015,Mysuru,"Mysore Palace night lighting with thousands of bulbs is breathtaking. Sandalwood fragrance and sweet Mysore Pak make this heritage trip special.",4.7,2025-02-20,Family
+REV028,DEST016,Rishikesh,"White water river rafting in Ganga and cliff jumping were high adrenaline. Evening meditation at Triveni Ghat brought profound inner peace.",4.9,2025-03-10,Friends
+REV029,DEST017,Shimla,"Walking along Mall Road with colonial buildings in crisp mountain air was charming. The toy train ride through pine forests is a timeless classic.",4.4,2025-01-16,Family
+REV030,DEST018,Pondicherry,"French Quarter pastel villas and bougainvillea streets feel like southern France. Seaside promenade cafes, croissants, and Auroville peace are wonderful.",4.7,2025-02-04,Couples

@@ -1,0 +1,51 @@
+from_city,to_city,mode,capacity,distance_km,cost_inr,travel_time_hours
+Hyderabad,Bengaluru,FLIGHT,1400,570,3200,1.2
+Hyderabad,Bengaluru,TRAIN,2200,620,950,9.0
+Hyderabad,Bengaluru,BUS,800,570,750,10.5
+Hyderabad,Mumbai,FLIGHT,1600,710,3800,1.5
+Hyderabad,Mumbai,TRAIN,1800,790,1100,12.0
+Hyderabad,Chennai,FLIGHT,1200,630,3100,1.3
+Hyderabad,Chennai,TRAIN,2000,700,850,11.5
+Hyderabad,New Delhi,FLIGHT,2400,1580,5200,2.2
+Hyderabad,New Delhi,TRAIN,1500,1670,1850,22.0
+Hyderabad,Goa,FLIGHT,600,650,4200,1.5
+Hyderabad,Goa,BUS,450,650,1100,14.0
+Bengaluru,Chennai,TRAIN,2800,350,550,5.0
+Bengaluru,Chennai,FLIGHT,1100,350,2800,1.0
+Bengaluru,Goa,FLIGHT,800,560,3400,1.2
+Bengaluru,Goa,BUS,600,560,850,11.0
+Bengaluru,Kochi,FLIGHT,1000,550,3100,1.2
+Bengaluru,Kochi,TRAIN,1600,580,750,10.0
+Bengaluru,Mysore,TRAIN,3500,145,250,2.5
+Bengaluru,Mysore,BUS,1500,145,180,3.5
+Mumbai,Goa,FLIGHT,1500,590,3600,1.2
+Mumbai,Goa,TRAIN,2400,580,850,8.5
+Mumbai,Goa,BUS,700,590,900,12.0
+Mumbai,New Delhi,FLIGHT,3800,1420,4900,2.1
+Mumbai,New Delhi,TRAIN,2800,1380,1650,16.0
+Mumbai,Jaipur,FLIGHT,1100,1150,4100,1.8
+Mumbai,Pune,TRAIN,4000,150,180,3.2
+Mumbai,Pune,HIGHWAY,3000,150,300,3.0
+New Delhi,Agra,TRAIN,4200,230,350,2.0
+New Delhi,Agra,HIGHWAY,3500,230,450,3.5
+New Delhi,Jaipur,TRAIN,3000,280,450,4.5
+New Delhi,Jaipur,FLIGHT,900,280,2600,1.0
+New Delhi,Jaipur,BUS,1200,280,400,5.5
+New Delhi,Varanasi,FLIGHT,1400,820,3900,1.5
+New Delhi,Varanasi,TRAIN,2600,780,1150,8.0
+New Delhi,Amritsar,TRAIN,3200,450,750,6.0
+New Delhi,Amritsar,FLIGHT,800,450,2900,1.1
+New Delhi,Manali,BUS,1100,540,1200,12.5
+New Delhi,Shimla,TRAIN,1800,350,550,5.5
+New Delhi,Shimla,BUS,1400,350,650,7.5
+New Delhi,Rishikesh,TRAIN,2200,240,400,4.5
+New Delhi,Rishikesh,BUS,1500,240,450,5.5
+New Delhi,Kolkata,FLIGHT,2600,1530,5100,2.2
+New Delhi,Kolkata,TRAIN,2200,1450,1750,17.0
+Kolkata,Varanasi,TRAIN,2400,680,900,9.5
+Kolkata,Darjeeling,TRAIN,1600,610,850,10.0
+Kolkata,Darjeeling,FLIGHT,900,580,3400,1.2
+Chennai,Pondicherry,BUS,2500,160,250,3.5
+Chennai,Pondicherry,HIGHWAY,1800,160,350,3.0
+Chennai,Kochi,TRAIN,1900,690,850,11.0
+Chennai,Kochi,FLIGHT,950,690,3200,1.3

@@ -1,0 +1,26 @@
+{
+  "name": "travelsync-platform",
+  "version": "1.0.0",
+  "description": "TravelSync - Intelligent Travel Planning & Optimization Platform (Java 17 Core DSA Engine + React UI)",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "backend": "mvn exec:java",
+    "backend:test": "mvn clean test",
+    "backend:cli": "mvn exec:java -Dexec.args=\"--cli\"",
+    "backend:demo": "mvn exec:java -Dexec.args=\"--demo\""
+  },
+  "keywords": [
+    "travelsync",
+    "dsa",
+    "held-karp-tsp",
+    "dinic-maxflow",
+    "bipartite-matching",
+    "knapsack-approximation",
+    "miller-rabin",
+    "blelloch-scan"
+  ],
+  "author": "TravelSync Team",
+  "license": "MIT"
+}

@@ -1,0 +1,39 @@
+# ==============================================================================
+# TravelSync — Render Infrastructure-as-Code Blueprint Specification
+# ==============================================================================
+
+services:
+  # 1. Java 17 REST API Web Service (DSA Engine)
+  - type: web
+    name: travelsync-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    region: oregon
+    autoDeploy: true
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 8080
+
+  # 2. React + Vite Frontend Static Site
+  - type: web
+    name: travelsync-frontend
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    plan: free
+    region: oregon
+    autoDeploy: true
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_BASE_URL
+        fromService:
+          type: web
+          name: travelsync-backend
+          property: url
